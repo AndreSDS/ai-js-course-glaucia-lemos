@@ -1,9 +1,5 @@
 import { GoogleGenAI } from "@google/genai";
-import {
-  loadEnvironment,
-  getApiKey,
-  displayResult,
-} from "../../utils/helpers";
+import { loadEnvironment, getApiKey, displayResult } from "../../utils/helpers";
 
 loadEnvironment();
 
@@ -34,3 +30,4 @@ async function main(): Promise<void> {
 }
 
 main();
+
